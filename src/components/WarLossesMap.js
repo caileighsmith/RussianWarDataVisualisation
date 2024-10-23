@@ -119,7 +119,7 @@ function WarLossesMap() {
                 </button>
                 {showRecentLosses && (
                     <div className="recent-losses">
-                        <h3>Most Recent Losses (Last 7 Days)</h3>
+                        <h3><u>Most Recent Losses (Last 7 Days)</u>:</h3>
                         <ul className="recent-losses-list">
                             {recentLosses.map(loss => (
                                 <li key={loss.id} onClick={() => handleListItemClick(loss)}>
