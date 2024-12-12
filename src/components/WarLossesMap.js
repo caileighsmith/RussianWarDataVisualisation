@@ -105,7 +105,7 @@ function WarLossesMap() {
             <div className="card-header">
                 <h2>Russian Losses</h2>
                 <p>Days <u>without</u> reported losses: {daysWithoutLosses}.</p>
-                <small>Strictly showing <strong>reported</strong> losses. Majority of losses will be unreported.</small>
+                <small>Strictly showing <strong>reported</strong> losses. Sadly, the majority of losses will be unreported.</small>
             </div>
             <div className="card-body" ref={mapContainerRef}>
                 <MapContainer center={[48.3794, 31.1656]} zoom={6} className="map-container" ref={mapRef}>
